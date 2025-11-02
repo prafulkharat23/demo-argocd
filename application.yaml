@@ -17,4 +17,4 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-    - CreateNamespace=true
+    - syncTimeout=100s # Sets the sync timeout to 300 seconds
